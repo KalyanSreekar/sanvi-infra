@@ -16,9 +16,13 @@ function App() {
           autoPlay
           infiniteLoop
           transitionTime={1000}
-          interval={3000}
+          interval={5000}
           showThumbs={false}
           dynamicHeight={false}
+          showArrows={false}
+          showIndicators={false}
+          showStatus={false}
+          swipeable={false}
         >
           <img src={require("./images/slide11.jpg")} />
           <img src={require("./images/slide13.jpg")} />
@@ -30,10 +34,11 @@ function App() {
           autoPlay
           infiniteLoop
           transitionTime={1000}
-          interval={3000}
+          interval={5000}
           showArrows
-          showStatus
+          showStatus={false}
           showIndicators
+          swipeable={false}
         >
           <img src={require("./images/slide1.JPG")} />
           <img src={require("./images/slide2.JPG")} />
@@ -47,10 +52,11 @@ function App() {
           autoPlay
           infiniteLoop
           transitionTime={1000}
-          interval={3000}
+          interval={5000}
           showArrows
-          showStatus
+          showStatus={false}
           showIndicators
+          swipeable={false}
         >
           <img src={require("./images/slide31.jpg")} />
           <img src={require("./images/slide32.jpg")} />
