@@ -62,7 +62,7 @@ function App() {
             <FiMail className="iconStyle" />
             <h2 className="subheading">Mail us</h2>
           </div>
-          <b className="data">sanviinfra@mapleheights.com</b>
+          <b className="data">saanviinfra21@gmail.com</b>
           <div className="sameRow">
             <FiPhoneCall className="iconStyle" />
             <h2 className="subheading">Call us</h2>
