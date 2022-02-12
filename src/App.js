@@ -17,10 +17,8 @@ function App() {
           infiniteLoop
           transitionTime={1000}
           interval={5000}
-          showThumbs={false}
-          dynamicHeight={false}
-          showArrows={false}
-          showIndicators={false}
+          showArrows={true}
+          showIndicators={true}
           showStatus={false}
           swipeable={false}
         >
@@ -35,9 +33,9 @@ function App() {
           infiniteLoop
           transitionTime={1000}
           interval={5000}
-          showArrows
+          showArrows={true}
+          showIndicators={true}
           showStatus={false}
-          showIndicators
           swipeable={false}
         >
           <img src={require("./images/slide1.JPG")} />
@@ -53,9 +51,9 @@ function App() {
           infiniteLoop
           transitionTime={1000}
           interval={5000}
-          showArrows
+          showArrows={true}
+          showIndicators={true}
           showStatus={false}
-          showIndicators
           swipeable={false}
         >
           <img src={require("./images/slide31.jpg")} />
@@ -91,6 +89,23 @@ function App() {
           <h3 className="styledlink">preview project</h3>
         </div>
       </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <div
+          className="button button-left"
+          style={{ marginLeft: "8px" }}
+          onClick={() => {
+            navigator("https://maps.app.goo.gl/5Pwq4bvwYamovYKx7");
+          }}
+        >
+          <h3 className="styledlink">Navigate to Maple Heights</h3>
+        </div>
+      </div>
       <div className="ContactUsdiv">
         <h1 className="heading">Contact Us</h1>
         <div className="ContactUsData">
@@ -109,21 +124,12 @@ function App() {
             <h2 className="subheading">Call us</h2>
           </div>
           <b className="data">Sanjay patel - +91 97259 04806</b>
-          <b className="data">Arpit patel - +91 9003084857</b>
+          <b className="data">Arpit patel - +91 90030 84857</b>
           <div className="sameRow">
             <FiMail className="iconStyle" />
             <h2 className="subheading">Mail us</h2>
           </div>
           <b className="data">saanviinfra21@gmail.com</b>
-          <div
-            className="button button-left"
-            style={{ marginLeft: "8px" }}
-            onClick={() => {
-              navigator("https://maps.app.goo.gl/5Pwq4bvwYamovYKx7");
-            }}
-          >
-            <h3 className="styledlink">Navigate to Maple Heights</h3>
-          </div>
         </div>
       </div>
     </div>
