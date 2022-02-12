@@ -89,6 +89,13 @@
   font-size: 1.2rem;
 }
 
+.buttonsdiv {
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  flex-direction: row;
+}
+
 .iconStyle {
   width: 25px;
   height: 30px;
@@ -113,8 +120,27 @@
   .iconStyle {
     width: 20px;
     height: 25px;
+    margin-left: 10px;
   }
   .data {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+  .button-left {
+    margin-left: 10px;
+  }
+
+  .buttonsdiv {
+    flex-direction: column;
+  }
+
+  .button {
+    padding: 10px 20px;
+    margin: 15px 0px;
+    width: fit-content;
+    color: white;
+  }
+
+  .styledlink {
+    font-size: 1rem;
   }
 }
